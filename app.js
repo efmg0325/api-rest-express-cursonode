@@ -41,7 +41,8 @@ debug('Conectando con la base de datos...');
 const usuarios = [
     {id:1, nombre:'Grover'},
     {id:2, nombre:'Pablo'},
-    {id:3, nombre:'Ana'}
+    {id:3, nombre:'Ana'},
+    {id:4, nombre:'Edwin'}
 ]
 
 app.get('/', (req, res)=>{
@@ -133,3 +134,4 @@ return (schema.validate({ nombre: nom }));
     res.send(usuario);
 });
 */
+
